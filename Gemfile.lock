@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/stympy/faker.git
-  revision: 7d37acf5ae1bbfa5a25ccea785ebcdfb0be0f377
+  revision: 6d9ef88bb05199dd5e3a30c8902d8a8e2bb1004d
   branch: master
   specs:
     faker (2.1.2)
@@ -85,6 +85,7 @@ GEM
     nio4r (2.4.0)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
+    pg (1.1.4)
     puma (3.12.1)
     rack (2.0.7)
     rack-test (1.1.0)
@@ -147,6 +148,7 @@ DEPENDENCIES
   faker!
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
+  pg
   puma (~> 3.11)
   rails (~> 5.2.3)
   spring
